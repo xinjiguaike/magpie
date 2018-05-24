@@ -52,7 +52,7 @@ build:
 deploy: 
   steps:
     - internal/docker-push:
-        username: xinjiguaike@163.com
+        username: xinjiguaike
         password: mbi@88819 
         cmd: /pipeline/source/magpie
         tag: v1
