@@ -51,9 +51,12 @@ build:
 
 deploy: 
   steps:
+    - script:
+      name: env test
+      code: echo env
     - internal/docker-push:
-        username: $USERNAME
-        password: $PASSWORD
+        username: $DOCKER_USERNAME
+        password: $DOCKER_PASSWORD
         cmd: /pipeline/source/magpie
         tag: v1
         repository: xinjiguaike/magpie
