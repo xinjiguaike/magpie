@@ -1,7 +1,6 @@
 ![magpie logo](doc/img/magpie_logo_small.png)
 ![Build Status](https://travis-ci.org/rootsongjc/magpie.svg?branch=master)
-
-[![wercker status](https://app.wercker.com/status/b4880e4e13f5eff461d4e9ed8ba7d514/s/master "wercker status")](https://app.wercker.com/project/byKey/b4880e4e13f5eff461d4e9ed8ba7d514)
+[![wercker status](https://app.wercker.com/status/b4880e4e13f5eff461d4e9ed8ba7d514/m/master "wercker status")](https://app.wercker.com/project/byKey/b4880e4e13f5eff461d4e9ed8ba7d514)
 
 # Magpie  
 
