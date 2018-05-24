@@ -52,9 +52,8 @@ build:
 deploy: 
   steps:
     - internal/docker-push:
-        username: $USERNAME
-        password: $PASSWORD 
+        username: xinjiguaike@163.com
+        password: mbi@88819 
         cmd: /pipeline/source/magpie
         tag: v1
         repository: xinjiguaike/magpie
-        registry: https://registry.hub.docker.com
