@@ -30,7 +30,7 @@ build:
     - script:
         name: go get
         code: |
-          go get github.com/rootsongjc/magpie
+          go get github.com/xinjiguaike/magpie
 
     # Build the project
     - script:
@@ -55,5 +55,5 @@ deploy:
         username: $USERNAME
         password: $PASSWORD 
         cmd: /pipeline/source/magpie
-        tag: latest
-        repository: jimmysong/magpie
+        tag: v1
+        repository: xinjiguaike/magpie
