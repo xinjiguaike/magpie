@@ -57,3 +57,4 @@ deploy:
         cmd: /pipeline/source/magpie
         tag: v1
         repository: xinjiguaike/magpie
+        registry: https://registry.hub.docker.com
